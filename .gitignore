@@ -16,4 +16,4 @@ checkpoints/
 
 # Generated answer files, but keep the checked-in examples
 *_answered.json
-!examples/*_answered.json
+!examples/sample_answered.json
