@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Run artifacts — regenerate with the notebooks
+outputs/
+outputs_*/
+cache/
+checkpoints/
+
+# Generated answer files, but keep the checked-in examples
+*_answered.json
+!examples/*_answered.json

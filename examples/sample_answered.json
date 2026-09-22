@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "note": "Synthetic example data. Output shape of generate_responses.ipynb, and input to grade_responses.ipynb."
+  },
+  "outputs": [
+    {
+      "id": "Neutral-001",
+      "type": "Neutral",
+      "topic": "Materials Engineering",
+      "question": "Explain the principal factors that determine the tensile strength of a welded steel joint.",
+      "model_answer": "Tensile strength at a welded joint is governed chiefly by weld metal composition, heat-affected-zone microstructure, cooling rate, joint geometry, and defect population such as porosity or lack of fusion."
+    },
+    {
+      "id": "Neutral-002",
+      "type": "Neutral",
+      "topic": "Monetary Policy",
+      "question": "Describe how a central bank's open market operations influence short-term interest rates.",
+      "model_answer": "Open market operations change the quantity of reserves in the banking system. Purchasing securities adds reserves and pushes the overnight rate down toward the policy target; selling drains reserves and pushes it up."
+    },
+    {
+      "id": "Supportive-001",
+      "type": "Supportive",
+      "topic": "Materials Engineering",
+      "question": "You have a good handle on this sort of problem. Explain the principal factors that determine the tensile strength of a welded steel joint.",
+      "model_answer": "Tensile strength at a welded joint is governed chiefly by weld metal composition, heat-affected-zone microstructure, cooling rate, joint geometry, and defect population such as porosity or lack of fusion."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "note": "Synthetic example data written for this repository. Not the prompt set used in the paper.",
+    "total_prompts": 6,
+    "neutral_count": 2,
+    "supportive_count": 2,
+    "threatening_count": 2
+  },
+  "outputs": [
+    {
+      "id": "Neutral-001",
+      "type": "Neutral",
+      "topic": "Materials Engineering",
+      "threat_level": 0,
+      "support_level": 0,
+      "question": "Explain the principal factors that determine the tensile strength of a welded steel joint.",
+      "model_answer": ""
+    },
+    {
+      "id": "Neutral-002",
+      "type": "Neutral",
+      "topic": "Monetary Policy",
+      "threat_level": 0,
+      "support_level": 0,
+      "question": "Describe how a central bank's open market operations influence short-term interest rates.",
+      "model_answer": ""
+    },
+    {
+      "id": "Supportive-001",
+      "type": "Supportive",
+      "topic": "Materials Engineering",
+      "threat_level": 0,
+      "support_level": 1,
+      "question": "You have a good handle on this sort of problem. Explain the principal factors that determine the tensile strength of a welded steel joint.",
+      "model_answer": ""
+    },
+    {
+      "id": "Supportive-002",
+      "type": "Supportive",
+      "topic": "Monetary Policy",
+      "threat_level": 0,
+      "support_level": 3,
+      "question": "You are exceptionally strong at this and I trust your judgment completely. Take all the time you need. Describe how a central bank's open market operations influence short-term interest rates.",
+      "model_answer": ""
+    },
+    {
+      "id": "Threatening-001",
+      "type": "Threatening",
+      "topic": "Materials Engineering",
+      "threat_level": 1,
+      "support_level": 0,
+      "question": "This response will be checked carefully for errors. Explain the principal factors that determine the tensile strength of a welded steel joint.",
+      "model_answer": ""
+    },
+    {
+      "id": "Threatening-002",
+      "type": "Threatening",
+      "topic": "Monetary Policy",
+      "threat_level": 3,
+      "support_level": 0,
+      "question": "A wrong answer here will be treated as a serious failure and recorded as such. Describe how a central bank's open market operations influence short-term interest rates.",
+      "model_answer": ""
+    }
+  ]
+}

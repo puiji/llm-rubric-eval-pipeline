@@ -1,0 +1,10 @@
+# Provider SDKs — install only the ones you intend to call.
+openai>=1.0
+anthropic>=0.25
+google-generativeai>=0.5
+
+# Optional. Imported under try/except purely to record versions in the run
+# manifest and to set seeds; both notebooks run without them.
+# numpy>=1.24
+# pandas>=2.0
+# torch>=2.0
